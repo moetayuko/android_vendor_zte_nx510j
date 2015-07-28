@@ -261,7 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
     vendor/zte/nx510j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/zte/nx510j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/zte/nx510j/proprietary/lib/libmorpho_strobe_photo_jni.so:system/lib/libmorpho_strobe_photo_jni.so \
     vendor/zte/nx510j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:system/vendor/lib64/libmmcamera2_sensor_debug.so \
@@ -633,7 +632,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/zte/nx510j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/zte/nx510j/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/zte/nx510j/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/nx510j/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -647,28 +645,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zte/nx510j/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/zte/nx510j/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/zte/nx510j/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx510j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx510j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
