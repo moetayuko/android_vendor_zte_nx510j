@@ -413,6 +413,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_liveshot.so:system/vendor/lib/libchromatix_imx234_liveshot.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_postproc.so:system/vendor/lib/libchromatix_imx234_postproc.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_preview.so:system/vendor/lib/libchromatix_imx234_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_slowshutter.so:system/vendor/lib/libchromatix_imx234_slowshutter.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_snapshot_hdr.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode.so \
