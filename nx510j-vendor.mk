@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff \
     libmdmdetect \
-    libFlacSwDec
+    libFlacSwDec \
+    libmm-abl
 
 $(call inherit-product, vendor/zte/nx510j/nx510j-vendor-blobs.mk)

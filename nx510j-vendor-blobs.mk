@@ -139,19 +139,31 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zte/nx510j/proprietary/bin/perfd:system/bin/perfd \
     vendor/zte/nx510j/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
+    vendor/zte/nx510j/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/zte/nx510j/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/zte/nx510j/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/zte/nx510j/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/zte/nx510j/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/zte/nx510j/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/zte/nx510j/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/zte/nx510j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/zte/nx510j/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_4transmeshrnorm_leafnum1.trn9614.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_4transmeshrnorm_leafnum1.trn9614.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn:system/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_parteng_font40_4transmeshr_morph.trn400.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn \
+    vendor/zte/nx510j/proprietary/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin:system/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin \
     vendor/zte/nx510j/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -161,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
     vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
     vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
@@ -169,6 +182,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libscveORC_skel.so:system/vendor/lib/rfsa/adsp/libscveORC_skel.so \
     vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libmare_hexagon_skel.so:system/vendor/lib/rfsa/adsp/libmare_hexagon_skel.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libpanorama_skel.so:system/vendor/lib/rfsa/adsp/libpanorama_skel.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/zte/nx510j/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/zte/nx510j/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/zte/nx510j/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -222,8 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/zte/nx510j/proprietary/lib/soundfx/libhwdap.so:system/lib/soundfx/libhwdap.so \
-    vendor/zte/nx510j/proprietary/lib/soundfx/libswdap.so:system/lib/soundfx/libswdap.so \
     vendor/zte/nx510j/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/zte/nx510j/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -287,311 +303,313 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camera.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz.so:system/vendor/lib/libactuator_rohm_bu64297gwz.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_snapshot.so:system/vendor/lib/libchromatix_imx132_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_video.so:system/vendor/lib/libchromatix_imx132_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_postproc.so:system/vendor/lib/libchromatix_imx132_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx135_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx135_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx135_cpp_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_liveshot.so:system/vendor/lib/libchromatix_imx135_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_preview.so:system/vendor/lib/libchromatix_imx135_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_snapshot.so:system/vendor/lib/libchromatix_imx135_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_video_hd.so:system/vendor/lib/libchromatix_imx135_cpp_video_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_video.so:system/vendor/lib/libchromatix_imx135_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_postproc.so:system/vendor/lib/libchromatix_imx135_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_common.so:system/vendor/lib/libchromatix_imx179_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx179_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx179_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_liveshot.so:system/vendor/lib/libchromatix_imx179_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_preview.so:system/vendor/lib/libchromatix_imx179_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx179_cpp_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_snapshot.so:system/vendor/lib/libchromatix_imx179_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx179_cpp_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_video.so:system/vendor/lib/libchromatix_imx179_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_default_video.so:system/vendor/lib/libchromatix_imx179_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_hfr_120.so:system/vendor/lib/libchromatix_imx179_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_hfr_60.so:system/vendor/lib/libchromatix_imx179_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_hfr_90.so:system/vendor/lib/libchromatix_imx179_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_liveshot.so:system/vendor/lib/libchromatix_imx179_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_postproc.so:system/vendor/lib/libchromatix_imx179_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_preview.so:system/vendor/lib/libchromatix_imx179_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_snapshot_hdr.so:system/vendor/lib/libchromatix_imx179_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_snapshot.so:system/vendor/lib/libchromatix_imx179_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_video_hdr.so:system/vendor/lib/libchromatix_imx179_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_imx214_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_preview.so:system/vendor/lib/libchromatix_imx214_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_video.so:system/vendor/lib/libchromatix_imx214_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_90.so:system/vendor/lib/libchromatix_imx214_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_postproc.so:system/vendor/lib/libchromatix_imx214_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_common.so:system/vendor/lib/libchromatix_imx230_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_default_video.so:system/vendor/lib/libchromatix_imx230_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:system/vendor/lib/libchromatix_imx230_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:system/vendor/lib/libchromatix_imx230_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:system/vendor/lib/libchromatix_imx230_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:system/vendor/lib/libchromatix_imx230_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:system/vendor/lib/libchromatix_imx230_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:system/vendor/lib/libchromatix_imx230_video_4k.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:system/vendor/lib/libchromatix_imx230_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_common.so:system/vendor/lib/libchromatix_imx234_af_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx234_af_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx234_af_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_liveshot.so:system/vendor/lib/libchromatix_imx234_af_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_bu64244gwz_camcorder.so:system/vendor/lib/libactuator_bu64244gwz_camcorder.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_bu64244gwz_camera.so:system/vendor/lib/libactuator_bu64244gwz_camera.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_lc898212xd_camcorder.so:system/vendor/lib/libactuator_lc898212xd_camcorder.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_lc898212xd_camera.so:system/vendor/lib/libactuator_lc898212xd_camera.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_preview.so:system/vendor/lib/libchromatix_imx234_af_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_af_cpp_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_snapshot.so:system/vendor/lib/libchromatix_imx234_af_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx234_af_cpp_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_video.so:system/vendor/lib/libchromatix_imx234_af_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_default_video.so:system/vendor/lib/libchromatix_imx234_af_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_hfr_120.so:system/vendor/lib/libchromatix_imx234_af_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_hfr_60.so:system/vendor/lib/libchromatix_imx234_af_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_hfr_90.so:system/vendor/lib/libchromatix_imx234_af_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_liveshot.so:system/vendor/lib/libchromatix_imx234_af_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_postproc.so:system/vendor/lib/libchromatix_imx234_af_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_preview.so:system/vendor/lib/libchromatix_imx234_af_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_af_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_af_snapshot_nightmode_1.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_af_snapshot_nightmode.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot.so:system/vendor/lib/libchromatix_imx234_af_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx179_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:system/vendor/lib/libchromatix_imx230_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_video.so:system/vendor/lib/libchromatix_imx135_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_90.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_video_hdr.so:system/vendor/lib/libchromatix_imx234_af_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_common.so:system/vendor/lib/libchromatix_imx234_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_liveshot.so:system/vendor/lib/libchromatix_imx234_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_preview.so:system/vendor/lib/libchromatix_imx234_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_default_video.so:system/vendor/lib/libchromatix_imx234_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_hfr_120.so:system/vendor/lib/libchromatix_imx234_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_hfr_60.so:system/vendor/lib/libchromatix_imx234_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_hfr_90.so:system/vendor/lib/libchromatix_imx234_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_liveshot.so:system/vendor/lib/libchromatix_imx234_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_postproc.so:system/vendor/lib/libchromatix_imx234_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_preview.so:system/vendor/lib/libchromatix_imx234_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_slowshutter.so:system/vendor/lib/libchromatix_imx234_slowshutter.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_snapshot_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:system/vendor/lib/libchromatix_imx234_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_video_hdr.so:system/vendor/lib/libchromatix_imx234_video_hdr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_cpp_hfr.so:system/vendor/lib/libchromatix_ov2720_cpp_hfr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_cpp_liveshot.so:system/vendor/lib/libchromatix_ov2720_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_cpp_preview.so:system/vendor/lib/libchromatix_ov2720_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_cpp_video.so:system/vendor/lib/libchromatix_ov2720_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_cpp_zsl.so:system/vendor/lib/libchromatix_ov2720_cpp_zsl.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:system/vendor/lib/libchromatix_ov2720_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:system/vendor/lib/libchromatix_ov2720_hfr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_liveshot.so:system/vendor/lib/libchromatix_ov2720_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_postproc.so:system/vendor/lib/libchromatix_ov2720_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_common.so:system/vendor/lib/libchromatix_ov4688_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_video.so:system/vendor/lib/libchromatix_ov4688_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_default_video.so:system/vendor/lib/libchromatix_ov4688_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:system/vendor/lib/libchromatix_ov4688_hfr_120.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_hfr_60.so:system/vendor/lib/libchromatix_ov4688_hfr_60.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_hfr_90.so:system/vendor/lib/libchromatix_ov4688_hfr_90.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_liveshot.so:system/vendor/lib/libchromatix_ov4688_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_postproc.so:system/vendor/lib/libchromatix_ov4688_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_default_video.so:system/vendor/lib/libchromatix_imx179_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_240.so:system/vendor/lib/libchromatix_imx214_hfr_240.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_preview.so:system/vendor/lib/libchromatix_ov4688_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_video_hd.so:system/vendor/lib/libchromatix_imx135_cpp_video_hd.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_liveshot.so:system/vendor/lib/libchromatix_imx179_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx234_af_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_preview.so:system/vendor/lib/libchromatix_imx234_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_hfr_90.so:system/vendor/lib/libchromatix_imx179_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_af_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_video.so:system/vendor/lib/libchromatix_imx179_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:system/vendor/lib/libchromatix_imx230_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_snapshot.so:system/vendor/lib/libchromatix_imx234_af_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_liveshot.so:system/vendor/lib/libchromatix_imx258_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_liveshot.so:system/vendor/lib/libchromatix_imx179_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_hfr_120.so:system/vendor/lib/libchromatix_imx179_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_video.so:system/vendor/lib/libchromatix_imx132_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx234_af_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_af_snapshot_nightmode_1.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:system/vendor/lib/libchromatix_imx230_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_default_video.so:system/vendor/lib/libchromatix_ov4688_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_video.so:system/vendor/lib/libchromatix_imx258_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_video_hdr.so:system/vendor/lib/libchromatix_imx234_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_hfr_120.so:system/vendor/lib/libchromatix_imx234_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_snapshot_hdr.so:system/vendor/lib/libchromatix_imx179_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_video.so:system/vendor/lib/libchromatix_ov4688_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_common.so:system/vendor/lib/libchromatix_imx258_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_preview.so:system/vendor/lib/libchromatix_imx234_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_preview.so:system/vendor/lib/libchromatix_imx214_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx135_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_default_video.so:system/vendor/lib/libchromatix_imx230_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_preview.so:system/vendor/lib/libchromatix_imx179_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_postproc.so:system/vendor/lib/libchromatix_ov4688_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_postproc.so:system/vendor/lib/libchromatix_imx234_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_hfr_60.so:system/vendor/lib/libchromatix_imx234_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_common.so:system/vendor/lib/libchromatix_s5k3m2xm_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_hfr_90.so:system/vendor/lib/libchromatix_ov4688_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_default_video.so:system/vendor/lib/libchromatix_imx234_af_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx135_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:system/vendor/lib/libchromatix_imx230_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:system/vendor/lib/libchromatix_imx230_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_postproc.so:system/vendor/lib/libchromatix_s5k3m2xm_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_liveshot.so:system/vendor/lib/libchromatix_ov4688_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_common.so:system/vendor/lib/libchromatix_imx179_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_postproc.so:system/vendor/lib/libchromatix_s5k3m2xx_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx179_cpp_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_video_hdr.so:system/vendor/lib/libchromatix_imx179_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_hfr_60.so:system/vendor/lib/libchromatix_imx234_af_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx135_cpp_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_default_video.so:system/vendor/lib/libchromatix_imx234_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_preview.so:system/vendor/lib/libchromatix_imx258_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_postproc.so:system/vendor/lib/libchromatix_imx135_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_hfr_60.so:system/vendor/lib/libchromatix_ov4688_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_hfr_60.so:system/vendor/lib/libchromatix_imx258_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_preview.so:system/vendor/lib/libchromatix_imx179_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_240.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_preview.so:system/vendor/lib/libchromatix_imx135_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:system/vendor/lib/libchromatix_imx230_video_4k.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_slowshutter.so:system/vendor/lib/libchromatix_imx234_slowshutter.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:system/vendor/lib/libchromatix_imx230_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_video.so:system/vendor/lib/libchromatix_imx234_af_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:system/vendor/lib/libchromatix_ov4688_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx234_af_cpp_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:system/vendor/lib/libchromatix_imx258_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_snapshot.so:system/vendor/lib/libchromatix_imx179_snapshot.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_snapshot.so:system/vendor/lib/libchromatix_ov4688_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_common.so:system/vendor/lib/libchromatix_ov8825_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_cpp_hfr_120fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_cpp_hfr_60fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_cpp_hfr_90fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_liveshot_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8825_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_preview_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_preview_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_preview.so:system/vendor/lib/libchromatix_ov8825_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_snapshot_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8825_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_video_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_video_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_video.so:system/vendor/lib/libchromatix_ov8825_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_cpp_zsl.so:system/vendor/lib/libchromatix_ov8825_cpp_zsl.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_liveshot.so:system/vendor/lib/libchromatix_ov8825_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_postproc.so:system/vendor/lib/libchromatix_ov8825_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:system/vendor/lib/libchromatix_ov8825_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_video_hd.so:system/vendor/lib/libchromatix_ov8825_video_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:system/vendor/lib/libchromatix_ov8825_zsl.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_common.so:system/vendor/lib/libchromatix_ov9724_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_cpp_liveshot.so:system/vendor/lib/libchromatix_ov9724_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_cpp_preview.so:system/vendor/lib/libchromatix_ov9724_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_cpp_video.so:system/vendor/lib/libchromatix_ov9724_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_default_video.so:system/vendor/lib/libchromatix_ov9724_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_liveshot.so:system/vendor/lib/libchromatix_ov9724_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_postproc.so:system/vendor/lib/libchromatix_ov9724_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov9724_preview.so:system/vendor/lib/libchromatix_ov9724_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_common.so:system/vendor/lib/libchromatix_s5k3l1yx_common.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_hfr_120fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_hfr_60fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_hfr_90fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_video_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_video.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_zsl.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_default_video.so:system/vendor/lib/libchromatix_s5k3l1yx_default_video.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_liveshot.so:system/vendor/lib/libchromatix_s5k3l1yx_liveshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_postproc.so:system/vendor/lib/libchromatix_s5k3l1yx_postproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_preview.so:system/vendor/lib/libchromatix_s5k3l1yx_preview.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_snapshot.so:system/vendor/lib/libchromatix_s5k3l1yx_snapshot.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_video_hd.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3l1yx_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_90.so:system/vendor/lib/libchromatix_imx214_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_postproc.so:system/vendor/lib/libchromatix_imx179_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_default_video.so:system/vendor/lib/libchromatix_imx258_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_postproc.so:system/vendor/lib/libchromatix_imx132_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_common.so:system/vendor/lib/libchromatix_imx234_af_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_ov4688_common.so:system/vendor/lib/libchromatix_ov4688_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_hfr_60.so:system/vendor/lib/libchromatix_imx179_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_liveshot.so:system/vendor/lib/libchromatix_imx234_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot.so:system/vendor/lib/libchromatix_imx234_af_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:system/vendor/lib/libchromatix_imx234_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx179_cpp_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_slowshutter.so:system/vendor/lib/libchromatix_imx234_af_slowshutter.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_preview.so:system/vendor/lib/libchromatix_imx258_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_snapshot.so:system/vendor/lib/libchromatix_imx258_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_common.so:system/vendor/lib/libchromatix_imx234_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_hfr_90.so:system/vendor/lib/libchromatix_imx258_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_af_snapshot_nightmode.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_hfr_90.so:system/vendor/lib/libchromatix_imx234_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_snapshot.so:system/vendor/lib/libchromatix_imx179_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_hfr_90.so:system/vendor/lib/libchromatix_imx234_af_hfr_90.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_snapshot.so:system/vendor/lib/libchromatix_imx135_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_video.so:system/vendor/lib/libchromatix_imx214_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_liveshot.so:system/vendor/lib/libchromatix_imx234_af_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_imx214_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_snapshot508.so:system/vendor/lib/libchromatix_imx179_snapshot508.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx179_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx179_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_liveshot.so:system/vendor/lib/libchromatix_imx234_af_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_af_cpp_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx214_postproc.so:system/vendor/lib/libchromatix_imx214_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_hfr_120.so:system/vendor/lib/libchromatix_imx234_af_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot_hdr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_common.so:system/vendor/lib/libchromatix_imx230_common.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx135_cpp_liveshot.so:system/vendor/lib/libchromatix_imx135_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_liveshot.so:system/vendor/lib/libchromatix_imx234_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_snapshot.so:system/vendor/lib/libchromatix_imx132_cpp_snapshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_preview.so:system/vendor/lib/libchromatix_imx234_af_preview.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_postproc.so:system/vendor/lib/libchromatix_imx234_af_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx234_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_postproc.so:system/vendor/lib/libchromatix_imx258_postproc.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_sensor_debug.so:system/vendor/lib/libmmcamera2_sensor_debug.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_sensor_debug.so:system/vendor/lib/libmmcamera2_sensor_debug.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx179_mcnex_eeprom.so:system/vendor/lib/libmmcamera_imx179_mcnex_eeprom.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx179.so:system/vendor/lib/libmmcamera_imx179.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx234_af.so:system/vendor/lib/libmmcamera_imx234_af.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx234_bu64297gwz_eeprom.so:system/vendor/lib/libmmcamera_imx234_bu64297gwz_eeprom.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_abf44.so:system/vendor/lib/libmmcamera_isp_abf44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bcc44.so:system/vendor/lib/libmmcamera_isp_bcc44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bf_scale_stats46.so:system/vendor/lib/libmmcamera_isp_bf_scale_stats46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bf_stats44.so:system/vendor/lib/libmmcamera_isp_bf_stats44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bg_stats46.so:system/vendor/lib/libmmcamera_isp_bg_stats46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bpc44.so:system/vendor/lib/libmmcamera_isp_bpc44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clf46.so:system/vendor/lib/libmmcamera_isp_clf46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_correct46.so:system/vendor/lib/libmmcamera_isp_color_correct46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder46.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_xform_video46.so:system/vendor/lib/libmmcamera_isp_color_xform_video46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_cs_stats46.so:system/vendor/lib/libmmcamera_isp_cs_stats46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_demosaic44.so:system/vendor/lib/libmmcamera_isp_demosaic44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so:system/vendor/lib/libmmcamera_isp_fovcrop_video46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_gic46.so:system/vendor/lib/libmmcamera_isp_gic46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_gtm46.so:system/vendor/lib/libmmcamera_isp_gtm46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_hdr46.so:system/vendor/lib/libmmcamera_isp_hdr46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so:system/vendor/lib/libmmcamera_isp_ihist_stats46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff44.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so:system/vendor/lib/libmmcamera_isp_rs_stats46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder46.so:system/vendor/lib/libmmcamera_isp_scaler_encoder46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_scaler_video46.so:system/vendor/lib/libmmcamera_isp_scaler_video46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_wb46.so:system/vendor/lib/libmmcamera_isp_wb46.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:system/vendor/lib/libmmcamera_s5k3l1yx.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bcc44.so:system/vendor/lib/libmmcamera_isp_bcc44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_gtm46.so:system/vendor/lib/libmmcamera_isp_gtm46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx179_mcnex_eeprom.so:system/vendor/lib/libmmcamera_imx179_mcnex_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_gic46.so:system/vendor/lib/libmmcamera_isp_gic46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_wb46.so:system/vendor/lib/libmmcamera_isp_wb46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_xform_video46.so:system/vendor/lib/libmmcamera_isp_color_xform_video46.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx234_bu64297gwz_eeprom.so:system/vendor/lib/libmmcamera_imx234_bu64297gwz_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so:system/vendor/lib/libmmcamera_isp_rs_stats46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bf_stats44.so:system/vendor/lib/libmmcamera_isp_bf_stats44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx179.so:system/vendor/lib/libmmcamera_imx179.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bpc44.so:system/vendor/lib/libmmcamera_isp_bpc44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_hdr46.so:system/vendor/lib/libmmcamera_isp_hdr46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so:system/vendor/lib/libmmcamera_isp_ihist_stats46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so:system/vendor/lib/libmmcamera_isp_fovcrop_video46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx234_af.so:system/vendor/lib/libmmcamera_imx234_af.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_scaler_video46.so:system/vendor/lib/libmmcamera_isp_scaler_video46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder46.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bg_stats46.so:system/vendor/lib/libmmcamera_isp_bg_stats46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_color_correct46.so:system/vendor/lib/libmmcamera_isp_color_correct46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_abf44.so:system/vendor/lib/libmmcamera_isp_abf44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder46.so:system/vendor/lib/libmmcamera_isp_scaler_encoder46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_cs_stats46.so:system/vendor/lib/libmmcamera_isp_cs_stats46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clf46.so:system/vendor/lib/libmmcamera_isp_clf46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_bf_scale_stats46.so:system/vendor/lib/libmmcamera_isp_bf_scale_stats46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_isp_demosaic44.so:system/vendor/lib/libmmcamera_isp_demosaic44.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -633,6 +651,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libextendedmediaextractor.so:system/vendor/lib/libextendedmediaextractor.so \
     vendor/zte/nx510j/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/zte/nx510j/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/nx510j/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -649,9 +668,15 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/zte/nx510j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/zte/nx510j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx510j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
@@ -699,10 +724,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -727,9 +754,69 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/zte/nx510j/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/zte/nx510j/proprietary/bin/usf_epos:system/bin/usf_epos \
+    vendor/zte/nx510j/proprietary/bin/usf_pairing:system/bin/usf_pairing \
+    vendor/zte/nx510j/proprietary/bin/usf_proximity:system/bin/usf_proximity \
+    vendor/zte/nx510j/proprietary/bin/usf_sw_calib:system/bin/usf_sw_calib \
+    vendor/zte/nx510j/proprietary/bin/usf_sync_gesture:system/bin/usf_sync_gesture \
+    vendor/zte/nx510j/proprietary/bin/usf_tester:system/bin/usf_tester \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/ps_tuning1_idle_mtp.bin:system/etc/usf/epos/cfg_mtp/ps_tuning1_idle_mtp.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/usf_epos_mtp.cfg:system/etc/usf/epos/cfg_mtp/usf_epos_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/ps_tuning1_standby_mtp.bin:system/etc/usf/epos/cfg_mtp/ps_tuning1_standby_mtp.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/service_settings_mtp.xml:system/etc/usf/epos/cfg_mtp/service_settings_mtp.xml \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/service_settings_mtp_1_to_1.xml:system/etc/usf/epos/cfg_mtp/service_settings_mtp_1_to_1.xml \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/service_settings_mtp_folio.xml:system/etc/usf/epos/cfg_mtp/service_settings_mtp_folio.xml \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/usf_epos_mtp_ps_disabled.cfg:system/etc/usf/epos/cfg_mtp/usf_epos_mtp_ps_disabled.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/ASDConf.sdc:system/etc/usf/epos/ASDConf.sdc \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/usf_epos_liquid_ps_disabled.cfg:system/etc/usf/epos/cfg_liquid/usf_epos_liquid_ps_disabled.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/service_settings_liquid.xml:system/etc/usf/epos/cfg_liquid/service_settings_liquid.xml \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/ps_tuning1_idle_liquid.bin:system/etc/usf/epos/cfg_liquid/ps_tuning1_idle_liquid.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/usf_epos_liquid.cfg:system/etc/usf/epos/cfg_liquid/usf_epos_liquid.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/service_settings_liquid_1_to_1.xml:system/etc/usf/epos/cfg_liquid/service_settings_liquid_1_to_1.xml \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/service_settings_liquid_folio.xml:system/etc/usf/epos/cfg_liquid/service_settings_liquid_folio.xml \
+    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/ps_tuning1_standby_liquid.bin:system/etc/usf/epos/cfg_liquid/ps_tuning1_standby_liquid.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/form_factor_liquid.cfg:system/etc/usf/form_factor_liquid.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_apps_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_apps_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_tx_transparent_data.bin:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_tx_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_apps_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_apps_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_lpass_rec_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_lpass_rec_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_algo_transparent_data.bin:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_algo_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_tx_transparent_data.bin:system/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_tx_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_algo_transparent_data.bin:system/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_algo_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid.cfg:system/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/tester/cfg_mtp/usf_tester_epos_mtp.cfg:system/etc/usf/tester/cfg_mtp/usf_tester_epos_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/tester/cfg_liquid/usf_tester_epos_liquid.cfg:system/etc/usf/tester/cfg_liquid/usf_tester_epos_liquid.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
+    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
+    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/pairing/cfg_mtp/usf_pairing_mtp.cfg:system/etc/usf/pairing/cfg_mtp/usf_pairing_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/pairing/cfg_liquid/usf_pairing_liquid.cfg:system/etc/usf/pairing/cfg_liquid/usf_pairing_liquid.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_mtp.cfg:system/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_tester_mtp.cfg:system/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_tester_mtp.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_liquid.cfg:system/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_liquid.cfg \
+    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_tester_liquid.cfg:system/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_tester_liquid.cfg \
+    vendor/zte/nx510j/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
+    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/GoldenLogmask.dmc:system/vendor/etc/RIDL/GoldenLogmask.dmc \
+    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
+    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
+    vendor/zte/nx510j/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/zte/nx510j/proprietary/etc/firmware/cyttsp5_fw.bin:system/etc/firmware/cyttsp5_fw.bin \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd \
-    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd
+    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
+    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd
