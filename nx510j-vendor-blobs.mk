@@ -762,60 +762,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/zte/nx510j/proprietary/bin/usf_epos:system/bin/usf_epos \
-    vendor/zte/nx510j/proprietary/bin/usf_pairing:system/bin/usf_pairing \
-    vendor/zte/nx510j/proprietary/bin/usf_proximity:system/bin/usf_proximity \
-    vendor/zte/nx510j/proprietary/bin/usf_sw_calib:system/bin/usf_sw_calib \
-    vendor/zte/nx510j/proprietary/bin/usf_sync_gesture:system/bin/usf_sync_gesture \
-    vendor/zte/nx510j/proprietary/bin/usf_tester:system/bin/usf_tester \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/ps_tuning1_idle_mtp.bin:system/etc/usf/epos/cfg_mtp/ps_tuning1_idle_mtp.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/usf_epos_mtp.cfg:system/etc/usf/epos/cfg_mtp/usf_epos_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/ps_tuning1_standby_mtp.bin:system/etc/usf/epos/cfg_mtp/ps_tuning1_standby_mtp.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/service_settings_mtp.xml:system/etc/usf/epos/cfg_mtp/service_settings_mtp.xml \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/service_settings_mtp_1_to_1.xml:system/etc/usf/epos/cfg_mtp/service_settings_mtp_1_to_1.xml \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/service_settings_mtp_folio.xml:system/etc/usf/epos/cfg_mtp/service_settings_mtp_folio.xml \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_mtp/usf_epos_mtp_ps_disabled.cfg:system/etc/usf/epos/cfg_mtp/usf_epos_mtp_ps_disabled.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/ASDConf.sdc:system/etc/usf/epos/ASDConf.sdc \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/usf_epos_liquid_ps_disabled.cfg:system/etc/usf/epos/cfg_liquid/usf_epos_liquid_ps_disabled.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/service_settings_liquid.xml:system/etc/usf/epos/cfg_liquid/service_settings_liquid.xml \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/ps_tuning1_idle_liquid.bin:system/etc/usf/epos/cfg_liquid/ps_tuning1_idle_liquid.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/usf_epos_liquid.cfg:system/etc/usf/epos/cfg_liquid/usf_epos_liquid.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/service_settings_liquid_1_to_1.xml:system/etc/usf/epos/cfg_liquid/service_settings_liquid_1_to_1.xml \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/service_settings_liquid_folio.xml:system/etc/usf/epos/cfg_liquid/service_settings_liquid_folio.xml \
-    vendor/zte/nx510j/proprietary/etc/usf/epos/cfg_liquid/ps_tuning1_standby_liquid.bin:system/etc/usf/epos/cfg_liquid/ps_tuning1_standby_liquid.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/form_factor_liquid.cfg:system/etc/usf/form_factor_liquid.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_apps_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_apps_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_tx_transparent_data.bin:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_tx_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_fw_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_apps_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_apps_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_lpass_rec_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_lpass_rec_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_algo_transparent_data.bin:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp_algo_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp.cfg:system/etc/usf/sync_gesture/cfg_mtp/usf_sync_gesture_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_tx_transparent_data.bin:system/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_tx_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_algo_transparent_data.bin:system/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid_algo_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid.cfg:system/etc/usf/sync_gesture/cfg_liquid/usf_sync_gesture_liquid.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/tester/cfg_mtp/usf_tester_epos_mtp.cfg:system/etc/usf/tester/cfg_mtp/usf_tester_epos_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/tester/cfg_liquid/usf_tester_epos_liquid.cfg:system/etc/usf/tester/cfg_liquid/usf_tester_epos_liquid.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
-    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
-    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/pairing/cfg_mtp/usf_pairing_mtp.cfg:system/etc/usf/pairing/cfg_mtp/usf_pairing_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/pairing/cfg_liquid/usf_pairing_liquid.cfg:system/etc/usf/pairing/cfg_liquid/usf_pairing_liquid.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_mtp.cfg:system/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_tester_mtp.cfg:system/etc/usf/sw_calib/cfg_mtp/usf_sw_calib_tester_mtp.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_liquid.cfg:system/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_liquid.cfg \
-    vendor/zte/nx510j/proprietary/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_tester_liquid.cfg:system/etc/usf/sw_calib/cfg_liquid/usf_sw_calib_tester_liquid.cfg \
-    vendor/zte/nx510j/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
-    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/GoldenLogmask.dmc:system/vendor/etc/RIDL/GoldenLogmask.dmc \
-    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
-    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
-    vendor/zte/nx510j/proprietary/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
-    vendor/zte/nx510j/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/zte/nx510j/proprietary/etc/firmware/cyttsp5_fw.bin:system/etc/firmware/cyttsp5_fw.bin \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
