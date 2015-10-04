@@ -139,8 +139,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zte/nx510j/proprietary/bin/perfd:system/bin/perfd \
     vendor/zte/nx510j/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
     vendor/zte/nx510j/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/zte/nx510j/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
@@ -149,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/zte/nx510j/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/zte/nx510j/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/zte/nx510j/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
     vendor/zte/nx510j/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
@@ -240,6 +241,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/zte/nx510j/proprietary/lib/soundfx/libhwdap.so:system/lib/soundfx/libhwdap.so \
+    vendor/zte/nx510j/proprietary/lib/soundfx/libswdap.so:system/lib/soundfx/libswdap.so \
     vendor/zte/nx510j/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/zte/nx510j/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -261,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zte/nx510j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/zte/nx510j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx510j/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -272,6 +274,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/zte/nx510j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/zte/nx510j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/zte/nx510j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
     vendor/zte/nx510j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/nx510j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/nx510j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
@@ -515,6 +518,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx258_postproc.so:system/vendor/lib/libchromatix_imx258_postproc.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_startrack.so:system/vendor/lib/libchromatix_imx234_af_cpp_startrack.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_startrack.so:system/vendor/lib/libchromatix_imx234_af_startrack.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_startrack.so:system/vendor/lib/libchromatix_imx234_cpp_startrack.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_startrack.so:system/vendor/lib/libchromatix_imx234_startrack.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -757,7 +764,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/zte/nx510j/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
