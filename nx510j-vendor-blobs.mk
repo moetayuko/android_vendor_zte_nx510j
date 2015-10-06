@@ -42,9 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/nx510j/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/zte/nx510j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/zte/nx510j/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/zte/nx510j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/zte/nx510j/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
