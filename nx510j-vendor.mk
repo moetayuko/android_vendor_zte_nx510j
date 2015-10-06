@@ -21,6 +21,9 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libmdmdetect \
     libFlacSwDec \
-    libmm-abl
+    libmm-abl \
+    com.qualcomm.location \
+    libloc_api_v02 \
+    libloc_ds_api
 
 $(call inherit-product, vendor/zte/nx510j/nx510j-vendor-blobs.mk)
