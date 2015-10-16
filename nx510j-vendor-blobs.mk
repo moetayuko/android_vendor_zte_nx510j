@@ -660,8 +660,13 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libextendedmediaextractor.so:system/vendor/lib/libextendedmediaextractor.so \
     vendor/zte/nx510j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/zte/nx510j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/zte/nx510j/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/zte/nx510j/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+    vendor/zte/nx510j/proprietary/bin/quipc_main:system/bin/quipc_main \
+    vendor/zte/nx510j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/zte/nx510j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zte/nx510j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/zte/nx510j/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/zte/nx510j/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
@@ -674,6 +679,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/zte/nx510j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -686,6 +694,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/zte/nx510j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/nx510j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
