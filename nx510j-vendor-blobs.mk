@@ -43,12 +43,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/zte/nx510j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/zte/nx510j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/zte/nx510j/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/nx510j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
@@ -62,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libppl.so:system/vendor/lib64/libppl.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
@@ -92,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/zte/nx510j/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/zte/nx510j/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/zte/nx510j/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -250,7 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zte/nx510j/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zte/nx510j/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/zte/nx510j/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -633,6 +636,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/zte/nx510j/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/zte/nx510j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/zte/nx510j/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
@@ -656,6 +660,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libextendedmediaextractor.so:system/vendor/lib/libextendedmediaextractor.so \
     vendor/zte/nx510j/proprietary/bin/location-mq:system/bin/location-mq \
@@ -710,8 +715,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libmare-1.0.0.so:system/vendor/lib64/libmare-1.0.0.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libmare-cpu-1.0.0.so:system/vendor/lib64/libmare-cpu-1.0.0.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libQBLAS-0.11.38.so:system/vendor/lib64/libQBLAS-0.11.38.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
@@ -726,8 +735,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmare-1.0.0.so:system/vendor/lib/libmare-1.0.0.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libmare-cpu-1.0.0.so:system/vendor/lib/libmare-cpu-1.0.0.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libQBLAS-0.11.38.so:system/vendor/lib/libQBLAS-0.11.38.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zte/nx510j/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/zte/nx510j/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -754,11 +767,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libdpencalib.so:system/vendor/lib64/libdpencalib.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/zte/nx510j/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
@@ -770,7 +783,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -784,4 +796,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0092_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0102_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
-    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd
+    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd \
+    vendor/zte/nx510j/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:system/vendor/lib/hw/sound_trigger.primary.msm8994.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libepdsp.so:system/vendor/lib64/libepdsp.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libepdsp_SDserver.so:system/vendor/lib64/libepdsp_SDserver.so \
+    vendor/zte/nx510j/proprietary/vendor/lib64/libusutils.so:system/vendor/lib64/libusutils.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so
