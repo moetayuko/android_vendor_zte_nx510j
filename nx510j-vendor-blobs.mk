@@ -281,9 +281,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
     vendor/zte/nx510j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/nx510j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/zte/nx510j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
-    vendor/zte/nx510j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
-    vendor/zte/nx510j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/zte/nx510j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/nx510j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
@@ -526,6 +523,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_startrack.so:system/vendor/lib/libchromatix_imx234_af_startrack.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_startrack.so:system/vendor/lib/libchromatix_imx234_cpp_startrack.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_startrack.so:system/vendor/lib/libchromatix_imx234_startrack.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_cpp_panorama.so:system/vendor/lib/libchromatix_imx234_af_cpp_panorama.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_af_panorama.so:system/vendor/lib/libchromatix_imx234_af_panorama.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_cpp_panorama.so:system/vendor/lib/libchromatix_imx234_cpp_panorama.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libchromatix_imx234_panorama.so:system/vendor/lib/libchromatix_imx234_panorama.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
