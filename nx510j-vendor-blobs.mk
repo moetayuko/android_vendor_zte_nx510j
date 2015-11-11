@@ -590,7 +590,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/zte/nx510j/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/zte/nx510j/proprietary/bin/perfd:system/bin/perfd \
+    vendor/zte/nx510j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
@@ -661,7 +661,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:system/vendor/lib/hw/activity_recognition.msm8994.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/zte/nx510j/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/zte/nx510j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/nx510j/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
