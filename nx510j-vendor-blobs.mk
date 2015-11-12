@@ -464,16 +464,20 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/zte/nx510j/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/zte/nx510j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/zte/nx510j/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/zte/nx510j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/zte/nx510j/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/zte/nx510j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/zte/nx510j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/zte/nx510j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
