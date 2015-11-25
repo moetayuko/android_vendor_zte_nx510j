@@ -647,7 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/bin/radish:system/bin/radish \
     vendor/zte/nx510j/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/zte/nx510j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/zte/nx510j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
